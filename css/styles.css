@@ -25,10 +25,12 @@
 /* Header */
 .header{
     background-color:#fff;
+    border-width: 1rem;
+    border-color: #ECFF74;
 }
 
 .logo img{
-    width: 5em;
+    width: 6rem;
 }
 
 .btn, .btn:hover, .btn:active, .btn:visited{
