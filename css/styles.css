@@ -46,6 +46,10 @@
     background-color:#E3E3E3;
 }
 
+.nav-link{
+    color: #000 !important;
+}
+
 #footer ul{
     text-decoration: none;
     display: flex;
@@ -63,10 +67,10 @@
     color: #000;
 }
 
-#social{
-    gap: 1rem !important;
+#social a{
+    text-decoration: none;
+    padding: 1rem !important;
 }
-
 
 .contacto{
     background-color: #1F1F1F;
