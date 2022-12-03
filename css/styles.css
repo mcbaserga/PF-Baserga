@@ -1,0 +1,167 @@
+/* FONTS */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cabin';
+    src: url(../assets/fonts/Cabin/Cabin-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    font-family: 'Roboto';
+}
+
+.whatsapp{
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    bottom: 1em;
+    right: 1em;
+    background-color: #ECFF74;
+    border: transparent;
+    border-radius: 70%;
+    height: 3em;
+    width: 3rem;
+    padding: 0.6rem;
+}
+
+/* Header */
+.header{
+    background-color:#fff;
+}
+
+.logo img{
+    width: 5em;
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited{
+    background-color: #ECFF74 !important;
+    color: black;
+}
+
+/* Footer */
+#footer{
+    background-color:#E3E3E3;
+}
+
+#footer ul{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+}
+
+#footer li{
+    text-decoration: none;
+    color: #000;
+}
+
+
+#footer li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#social{
+    gap: 1rem !important;
+}
+
+
+.contacto{
+    background-color: #1F1F1F;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mailContacto a{
+    text-decoration: none;
+    color: #ECFF74;
+}
+.mailContacto:hover a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Index */
+.mainIndex{
+    background-image: url(../assets/img/firmbee-com-eMemmpUojlw-unsplash\ 1.png);
+    height: 100vh;
+}
+
+.textIndex{
+    font-family: 'Cabin';
+    color: #ffff;
+    padding: 10rem;
+}
+
+.textIndex h1{
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color: #ECFF74;
+    padding-bottom: 1rem;
+    text-underline-offset: 1.5rem;
+}
+
+.textIndex h2{
+    font-size: 6rem;
+    width: 70%;
+}
+
+.indexIntroContent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 5rem;
+}
+
+.textIntroContent{
+    height: auto;
+    text-align: center;
+}
+
+.indexIntroContent img{
+    width: 50%;
+    height: auto;    
+}
+
+
+/* Responsive mobile-first */
+@media screen and (min-width: 320px) and (max-width: 767px){
+    #mainNosotros{
+        grid-template-columns: 1fr;
+    }
+
+    #sectionEquipo{
+        grid-template-columns: 1fr;
+    }
+    
+    #layoutGrid{
+        grid-template-columns: 1fr;
+    }
+}
+    
+    
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #mainNosotros{
+        grid-template-columns: 2fr 1fr;
+    }
+    #sectionEquipo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    
+@media screen and (min-width:1024px){
+    #mainNosotros{
+        grid-template-columns: 2fr 1fr;
+    }
+    #sectionEquipo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
