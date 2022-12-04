@@ -6,6 +6,7 @@
 
 *{
     font-family: 'Cabin';
+    font-size: 1rem;
 }
 
 .whatsapp{
@@ -22,7 +23,7 @@
     padding: 0.6rem;
 }
 .main{
-    padding-top:8rem;
+    padding-top:7.5rem;
 }
 
 #mainClientes, #mainCasos, #mainContacto, #mainEquipo{
@@ -243,13 +244,13 @@
 
 
 
-
 /* Responsive mobile-first */
-/* @media screen and (min-width: 320px) and (max-width: 767px){
-}
+@media screen and (min-width: 320px) and (max-width: 767px){
     
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px){
 }
-    
+
 @media screen and (min-width:1024px){
-} */
+}
