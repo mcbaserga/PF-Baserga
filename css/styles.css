@@ -11,6 +11,7 @@
     box-sizing: border-box;
 }
 
+
 .whatsapp{
     position:fixed;
     display:flex;
@@ -24,17 +25,12 @@
     width: 3em;
     padding: 0.6em;
 }
-.main{
-    padding-top:7.5em;
-}
-
-#mainClientes, #mainCasos, #mainContacto, #equipoTextoNosotros{
-    padding: 2em;
-    padding-top: 8em;
-}
-
 
 /* Header */
+.header{
+    padding:4em;
+}
+
 .logo img{
     width: 20%;
 }
@@ -186,8 +182,15 @@
     margin-right: auto;
 }
 
+.textClientes{
+    margin:1em;
+}
 
 /* Casos de exito */
+#mainCasos{
+    margin: 1em;
+}
+
 #carouselExampleFade{
     display: block;
     margin-left: auto;
@@ -203,13 +206,13 @@
 .equipo h2{
     color: #fff;
     text-align: center;
-    padding: 4em;
+    padding-top:2em;
 }
 
 .equipoTextoNosotros{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 1em;
+    margin:1em;
 }
 
 .textoNosotros{
@@ -241,11 +244,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5em;
-    padding-left: 2em;
+    margin:1em;
 }
-
-
-
 
 /* Responsive mobile-first */
 @media screen and (min-width: 320px) and (max-width: 767px){
@@ -253,8 +253,7 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-    }
-        
+    } 
 
     .main{
         grid-template-columns: 1fr;
@@ -296,6 +295,30 @@
     .enQueSeBasa{
         padding: 1em;
     }
+
+    .equipoTextoNosotros{
+        grid-template-columns: 1fr;
+        gap:1em;
+        margin:1em;
+    }
+
+    .textoNosotros{
+        padding: 1em;
+    }
+
+    #cardsEquipo{
+        grid-template-columns: 1fr;
+    }
+
+    .textClientes{
+        margin:1em;
+    }
+
+    .text-center{
+        margin: 1em;
+    }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
