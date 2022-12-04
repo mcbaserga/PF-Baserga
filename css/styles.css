@@ -8,13 +8,6 @@
     font-family: 'Cabin';
 }
 
-main{
-    padding-top: 5.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-}
-
 .whatsapp{
     position:fixed;
     display:flex;
@@ -28,14 +21,26 @@ main{
     width: 3rem;
     padding: 0.6rem;
 }
+.main{
+    padding-top:8rem;
+}
+
+#mainClientes, #mainCasos, #mainContacto, #mainEquipo{
+    padding: 2rem;
+    padding-top: 8rem;
+}
+
 
 /* Header */
 .header{
     background-color:#fff;
+    width: 100%;
+    height: auto;
+    position: fixed;
 }
 
 .logo img{
-    width: 6rem;
+    width: 20%;
 }
 
 .btn, .btn:hover, .btn:active, .btn:visited{
@@ -113,8 +118,8 @@ main{
 }
 
 .textIndex h2{
-    font-size: 6rem;
-    width: 70%;
+    font-size: 6em;
+    width: 75%;
 }
 
 .indexIntroContent{
@@ -165,40 +170,86 @@ main{
     justify-content: center;
 }
 
+.queEsImg2{
+    padding: 2rem;
+}
+
+/* Clientes */
+.imgEmpresa1, .imgEmpresa2, .imgEmpresa3{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Casos de exito */
+#carouselExampleFade{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Equipo */
+.equipo{
+    background-color: #1F1F1F;
+}
+
+.equipo h2{
+    color: #fff;
+    text-align: center;
+    padding: 4rem;
+}
+
+.equipoTextoNosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 1rem;
+}
+
+.textoNosotros{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.equipoImg{
+    width: 100%;
+}
+
+.card-deck{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.juan, .sol, .sofia{
+    width: 95%;
+}
+
+
+/* Contacto */
+#mainContacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding-left: 2rem;
+}
+
 
 
 
 
 /* Responsive mobile-first */
-/* @media screen and (min-width: 320px) and (max-width: 767px) {
-    .mainIndex{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .mainQueEs{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .imagenesQueEs img{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+/* @media screen and (min-width: 320px) and (max-width: 767px){
 }
     
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    .mainIndex{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .mainQueEs{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .imagenesQueEs img{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
     
 @media screen and (min-width:1024px){
-}
+} */
