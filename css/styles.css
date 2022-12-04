@@ -8,6 +8,13 @@
     font-family: 'Cabin';
 }
 
+main{
+    padding-top: 5.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
 .whatsapp{
     position:fixed;
     display:flex;
@@ -25,8 +32,6 @@
 /* Header */
 .header{
     background-color:#fff;
-    border-width: 1rem;
-    border-color: #ECFF74;
 }
 
 .logo img{
@@ -130,38 +135,70 @@
 }
 
 
-/* Responsive mobile-first */
-@media screen and (min-width: 320px) and (max-width: 767px){
-    #mainNosotros{
-        grid-template-columns: 1fr;
-    }
+/* Qué es SEO */
+.queEs{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-    #sectionEquipo{
+.queEsTexto{
+    background-color: #ECFF74;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.listaQueEs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+}
+
+.enQueSeBasa{
+    padding: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    justify-content: center;
+}
+
+
+
+
+
+/* Responsive mobile-first */
+/* @media screen and (min-width: 320px) and (max-width: 767px) {
+    .mainIndex{
+        display: grid;
         grid-template-columns: 1fr;
     }
-    
-    #layoutGrid{
+    .mainQueEs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .imagenesQueEs img{
+        display: grid;
         grid-template-columns: 1fr;
     }
 }
     
-    
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    #mainNosotros{
-        grid-template-columns: 2fr 1fr;
-    }
-    #sectionEquipo{
+    .mainIndex{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .mainQueEs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .imagenesQueEs img{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
     
 @media screen and (min-width:1024px){
-    #mainNosotros{
-        grid-template-columns: 2fr 1fr;
-    }
-    #sectionEquipo{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 }
