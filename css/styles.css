@@ -6,7 +6,9 @@
 
 *{
     font-family: 'Cabin';
-    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .whatsapp{
@@ -19,27 +21,20 @@
     border: transparent;
     border-radius: 70%;
     height: 3em;
-    width: 3rem;
-    padding: 0.6rem;
+    width: 3em;
+    padding: 0.6em;
 }
 .main{
-    padding-top:7.5rem;
+    padding-top:7.5em;
 }
 
-#mainClientes, #mainCasos, #mainContacto, #mainEquipo{
-    padding: 2rem;
-    padding-top: 8rem;
+#mainClientes, #mainCasos, #mainContacto, #equipoTextoNosotros{
+    padding: 2em;
+    padding-top: 8em;
 }
 
 
 /* Header */
-.header{
-    background-color:#fff;
-    width: 100%;
-    height: auto;
-    position: fixed;
-}
-
 .logo img{
     width: 20%;
 }
@@ -77,14 +72,14 @@
 
 #social a{
     text-decoration: none;
-    padding: 1rem !important;
+    padding: 1em !important;
 }
 
 .contacto{
     background-color: #1F1F1F;
     color: #fff;
-    font-size: 0.7rem;
-    padding: 0.5rem;
+    font-size: 0.7em;
+    padding: 0.5em;
     display: flex;
     justify-content: space-evenly;
 }
@@ -103,23 +98,26 @@
 .mainIndex{
     background-image: url(../assets/img/firmbee-com-eMemmpUojlw-unsplash\ 1.png);
     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .textIndex{
     color: #ffff;
-    padding: 10rem;
+    padding: 10em;
 }
 
 .textIndex h1{
-    font-size: 3rem;
+    font-size: 3em !important;
     text-decoration: underline;
     text-decoration-color: #ECFF74;
-    padding-bottom: 1rem;
-    text-underline-offset: 1.5rem;
+    padding-bottom: 1em;
+    text-underline-offset: 0.7em;
 }
 
 .textIndex h2{
-    font-size: 6em;
+    font-size: 6em !important;
     width: 75%;
 }
 
@@ -127,7 +125,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    padding: 5rem;
+    padding: 5em;
 }
 
 .textIntroContent{
@@ -143,14 +141,16 @@
 
 /* Qué es SEO */
 .queEs{
-    padding: 5rem;
+    padding: 5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-size:1.5em;
 }
 
 .queEsTexto{
     background-color: #ECFF74;
-    padding: 5rem;
+    margin: auto;
+    padding:2.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,18 +161,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: justify;
+    margin:0em;
+    padding:1em;
 }
 
 .enQueSeBasa{
-    padding: 7rem;
+    margin: 0;
+    padding: 3em;
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     justify-content: center;
 }
 
-.queEsImg2{
-    padding: 2rem;
+.queEsImg1, .queEsImg2{
+    width: 100%;
 }
 
 /* Clientes */
@@ -200,17 +203,17 @@
 .equipo h2{
     color: #fff;
     text-align: center;
-    padding: 4rem;
+    padding: 4em;
 }
 
 .equipoTextoNosotros{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 1rem;
+    padding-bottom: 1em;
 }
 
 .textoNosotros{
-    padding: 5rem;
+    padding: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,8 +227,8 @@
 .card-deck{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    padding: 2rem;
+    gap: 2em;
+    padding: 2em;
 }
 
 .juan, .sol, .sofia{
@@ -237,8 +240,8 @@
 #mainContacto{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    padding-left: 2rem;
+    gap: 5em;
+    padding-left: 2em;
 }
 
 
@@ -246,11 +249,67 @@
 
 /* Responsive mobile-first */
 @media screen and (min-width: 320px) and (max-width: 767px){
-    
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+        
+
+    .main{
+        grid-template-columns: 1fr;
+        gap:1em;
+    }
+
+    .textIndex{
+        font-size: 0.4em;
+        padding: 5em;
+        text-underline-offset: 0.5em;
+    }
+
+    .indexIntroContent{
+        grid-template-columns: 1fr;
+        gap:1em;
+    }
+
+    #mainContacto{
+        grid-template-columns: 1fr;
+        gap:5em
+    }
+
+    .queEs{
+        font-size: 1em;
+        grid-template-columns: 1fr;
+        gap:1em;
+        padding:1em;
+    }
+
+    .queEsTexto{
+        padding:1em;
+    }
+
+    .listaQueEs{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .enQueSeBasa{
+        padding: 1em;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 }
 
 @media screen and (min-width:1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 }
