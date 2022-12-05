@@ -1,27 +1,23 @@
 /* Footer */
 #footer{
     background-color:#E3E3E3;
+    & ul{
+        text-decoration: none;
+        display: flex;
+        flex-flow: row;
+    }
+        & li{
+            text-decoration: none;
+            color: #000;
+        }
+            & li a{
+                text-decoration: none;
+                color: #000;
+            }
 }
 
 .nav-link{
     color: #000 !important;
-}
-
-#footer ul{
-    text-decoration: none;
-    display: flex;
-    flex-flow: row;
-}
-
-#footer li{
-    text-decoration: none;
-    color: #000;
-}
-
-
-#footer li a{
-    text-decoration: none;
-    color: #000;
 }
 
 #social a{

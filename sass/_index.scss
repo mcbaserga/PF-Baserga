@@ -10,19 +10,17 @@
 .textIndex{
     color: #ffff;
     padding: 10em;
-}
-
-.textIndex h1{
-    font-size: 3em !important;
-    text-decoration: underline;
-    text-decoration-color: #ECFF74;
-    padding-bottom: 1em;
-    text-underline-offset: 0.7em;
-}
-
-.textIndex h2{
-    font-size: 6em !important;
-    width: 75%;
+    & h1{
+        font-size: 3em !important;
+        text-decoration: underline;
+        text-decoration-color: #ECFF74;
+        padding-bottom: 1em;
+        text-underline-offset: 0.7em;
+    }
+        & h2{
+            font-size: 6em !important;
+            width: 75%;
+    }
 }
 
 .indexIntroContent{
@@ -30,14 +28,13 @@
     grid-template-columns: 1fr 1fr;
     text-align: center;
     padding: 5em;
+    & img{
+        width: 70%;
+        height: auto;    
+    }
 }
 
 .textIntroContent{
     height: auto;
     text-align: center;
-}
-
-.indexIntroContent img{
-    width: 70%;
-    height: auto;    
 }

@@ -43,25 +43,22 @@
 #footer {
   background-color: #E3E3E3;
 }
-
-.nav-link {
-  color: #000 !important;
-}
-
 #footer ul {
   text-decoration: none;
   display: flex;
   flex-flow: row;
 }
-
 #footer li {
   text-decoration: none;
   color: #000;
 }
-
 #footer li a {
   text-decoration: none;
   color: #000;
+}
+
+.nav-link {
+  color: #000 !important;
 }
 
 #social a {
@@ -101,7 +98,6 @@
   color: white;
   padding: 10em;
 }
-
 .textIndex h1 {
   font-size: 3em !important;
   text-decoration: underline;
@@ -110,7 +106,6 @@
   padding-bottom: 1em;
   text-underline-offset: 0.7em;
 }
-
 .textIndex h2 {
   font-size: 6em !important;
   width: 75%;
@@ -122,15 +117,14 @@
   text-align: center;
   padding: 5em;
 }
+.indexIntroContent img {
+  width: 70%;
+  height: auto;
+}
 
 .textIntroContent {
   height: auto;
   text-align: center;
-}
-
-.indexIntroContent img {
-  width: 70%;
-  height: auto;
 }
 
 /* Qué es SEO */
@@ -199,7 +193,6 @@
 .equipo {
   background-color: #1F1F1F;
 }
-
 .equipo h2 {
   color: #fff;
   text-align: center;
