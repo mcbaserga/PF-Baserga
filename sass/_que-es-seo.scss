@@ -1,0 +1,38 @@
+/* Qué es SEO */
+.queEsBox{
+    padding: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size:150%;
+}
+
+.queEsTexto{
+    background-color: #ECFF74;
+    margin: auto;
+    padding:2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.listaQueEs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    margin:0em;
+    padding:1em;
+}
+
+.enQueSeBasa{
+    margin: 0;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    justify-content: center;
+}
+
+.queEsImg1, .queEsImg2{
+    width: 100%;
+}

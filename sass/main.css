@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* FONTS */
+@font-face {
+  font-family: "Cabin";
+  src: url(../assets/fonts/Cabin/Cabin-VariableFont_wdth\,wght.ttf);
+}
+* {
+  font-family: "Cabin";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.whatsapp {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 1em;
+  right: 1em;
+  background-color: #ECFF74;
+  border: transparent;
+  border-radius: 70%;
+  height: 3em;
+  width: 3em;
+  padding: 0.6em;
+}
+
+/* Header */
+.header {
+  padding: 2.5em;
+}
+
+.logo img {
+  width: 4.5em;
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited {
+  background-color: #ECFF74 !important;
+  color: black;
+}
+
+/* Footer */
+#footer {
+  background-color: #E3E3E3;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+#footer ul {
+  text-decoration: none;
+  display: flex;
+  flex-flow: row;
+}
+
+#footer li {
+  text-decoration: none;
+  color: #000;
+}
+
+#footer li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#social a {
+  text-decoration: none;
+  padding: 1em !important;
+}
+
+.contacto {
+  background-color: #1F1F1F;
+  color: #fff;
+  font-size: 0.7em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mailContacto a {
+  text-decoration: none;
+  color: #ECFF74;
+}
+
+.mailContacto:hover a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Index */
+.mainIndex {
+  background-image: url(../assets/img/firmbee-com-eMemmpUojlw-unsplash\ 1.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textIndex {
+  color: white;
+  padding: 10em;
+}
+
+.textIndex h1 {
+  font-size: 3em !important;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ECFF74;
+          text-decoration-color: #ECFF74;
+  padding-bottom: 1em;
+  text-underline-offset: 0.7em;
+}
+
+.textIndex h2 {
+  font-size: 6em !important;
+  width: 75%;
+}
+
+.indexIntroContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  padding: 5em;
+}
+
+.textIntroContent {
+  height: auto;
+  text-align: center;
+}
+
+.indexIntroContent img {
+  width: 70%;
+  height: auto;
+}
+
+/* Qué es SEO */
+.queEsBox {
+  padding: 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 150%;
+}
+
+.queEsTexto {
+  background-color: #ECFF74;
+  margin: auto;
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.listaQueEs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+  margin: 0em;
+  padding: 1em;
+}
+
+.enQueSeBasa {
+  margin: 0;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  justify-content: center;
+}
+
+.queEsImg1, .queEsImg2 {
+  width: 100%;
+}
+
+/* Clientes */
+.imgEmpresa1, .imgEmpresa2, .imgEmpresa3 {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textClientes {
+  margin: 1em;
+}
+
+/* Casos de exito */
+#mainCasos {
+  margin: 1em;
+}
+
+#carouselExampleFade {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Equipo */
+.equipo {
+  background-color: #1F1F1F;
+}
+
+.equipo h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.equipoTextoNosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1em;
+}
+
+.textoNosotros {
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.equipoImg {
+  width: 100%;
+}
+
+.card-deck {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  padding: 2em;
+}
+
+.juan, .sol, .sofia {
+  width: 95%;
+}
+
+/* Contacto */
+#mainContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5em;
+  margin: 1em;
+}
+
+/* Responsive mobile-first */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .main {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  .textIndex {
+    font-size: 0.4em;
+    padding: 5em;
+    text-underline-offset: 0.5em;
+  }
+  .indexIntroContent {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  #mainContacto {
+    grid-template-columns: 1fr;
+    gap: 5em;
+  }
+  .queEsBox {
+    font-size: 1em;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 1em;
+  }
+  .queEsTexto {
+    padding: 1em;
+  }
+  .listaQueEs {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .enQueSeBasa {
+    padding: 1em;
+  }
+  .equipoTextoNosotros {
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin: 1em;
+  }
+  .textoNosotros {
+    padding: 1em;
+  }
+  #cardsEquipo {
+    grid-template-columns: 1fr;
+  }
+  .textClientes {
+    margin: 1em;
+  }
+  .text-center {
+    margin: 1em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}/*# sourceMappingURL=main.css.map */

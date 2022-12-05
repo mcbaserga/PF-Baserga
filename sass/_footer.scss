@@ -1,0 +1,48 @@
+/* Footer */
+#footer{
+    background-color:#E3E3E3;
+}
+
+.nav-link{
+    color: #000 !important;
+}
+
+#footer ul{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+}
+
+#footer li{
+    text-decoration: none;
+    color: #000;
+}
+
+
+#footer li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#social a{
+    text-decoration: none;
+    padding: 1em !important;
+}
+
+.contacto{
+    background-color: #1F1F1F;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mailContacto a{
+    text-decoration: none;
+    color: #ECFF74;
+}
+.mailContacto:hover a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,43 @@
+/* Index */
+.mainIndex{
+    background-image: url(../assets/img/firmbee-com-eMemmpUojlw-unsplash\ 1.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textIndex{
+    color: #ffff;
+    padding: 10em;
+}
+
+.textIndex h1{
+    font-size: 3em !important;
+    text-decoration: underline;
+    text-decoration-color: #ECFF74;
+    padding-bottom: 1em;
+    text-underline-offset: 0.7em;
+}
+
+.textIndex h2{
+    font-size: 6em !important;
+    width: 75%;
+}
+
+.indexIntroContent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 5em;
+}
+
+.textIntroContent{
+    height: auto;
+    text-align: center;
+}
+
+.indexIntroContent img{
+    width: 70%;
+    height: auto;    
+}

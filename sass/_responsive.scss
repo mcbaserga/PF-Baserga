@@ -1,0 +1,89 @@
+/* Responsive mobile-first */
+@media screen and (min-width: 320px) and (max-width: 767px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    } 
+
+    .main{
+        grid-template-columns: 1fr;
+        gap:1em;
+    }
+
+    .textIndex{
+        font-size: 0.4em;
+        padding: 5em;
+        text-underline-offset: 0.5em;
+    }
+
+    .indexIntroContent{
+        grid-template-columns: 1fr;
+        gap:1em;
+    }
+
+    #mainContacto{
+        grid-template-columns: 1fr;
+        gap:5em
+    }
+
+    .queEsBox{
+        font-size: 1em;
+        grid-template-columns: 1fr;
+        gap:1em;
+        padding:1em;
+    }
+
+    .queEsTexto{
+        padding:1em;
+    }
+
+    .listaQueEs{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+    .enQueSeBasa{
+        padding: 1em;
+    }
+
+    .equipoTextoNosotros{
+        grid-template-columns: 1fr;
+        gap:1em;
+        margin:1em;
+    }
+
+    .textoNosotros{
+        padding: 1em;
+    }
+
+    #cardsEquipo{
+        grid-template-columns: 1fr;
+    }
+
+    .textClientes{
+        margin:1em;
+    }
+
+    .text-center{
+        margin: 1em;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width:1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}

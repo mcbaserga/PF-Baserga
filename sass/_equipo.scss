@@ -1,0 +1,39 @@
+/* Equipo */
+.equipo{
+    background-color: #1F1F1F;
+}
+
+.equipo h2{
+    color: #fff;
+    text-align: center;
+    padding-top:2em;
+}
+
+.equipoTextoNosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:1em;
+}
+
+.textoNosotros{
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.equipoImg{
+    width: 100%;
+}
+
+.card-deck{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    padding: 2em;
+}
+
+.juan, .sol, .sofia{
+    width: 95%;
+}
