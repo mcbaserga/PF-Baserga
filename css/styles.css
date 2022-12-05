@@ -28,11 +28,11 @@
 
 /* Header */
 .header{
-    padding:4em;
+    padding:2.5em;
 }
 
 .logo img{
-    width: 20%;
+    width: 4.5em;
 }
 
 .btn, .btn:hover, .btn:active, .btn:visited{
@@ -136,11 +136,11 @@
 
 
 /* Qué es SEO */
-.queEs{
+.queEsBox{
     padding: 5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size:1.5em;
+    font-size:150%;
 }
 
 .queEsTexto{
@@ -276,7 +276,7 @@
         gap:5em
     }
 
-    .queEs{
+    .queEsBox{
         font-size: 1em;
         grid-template-columns: 1fr;
         gap:1em;
