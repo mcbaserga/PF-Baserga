@@ -1,15 +1,17 @@
 /* Qué es SEO */
 .queEsBox{
-    padding: 5em;
+    background-color: #ECFF74;
+    padding: 0.7em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size:150%;
+    font-size:1.5em;
+    & img{
+        width: 100%;
+    }
 }
 
 .queEsTexto{
-    background-color: #ECFF74;
-    margin: auto;
-    padding:2.5em;
+    padding:2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +35,6 @@
     justify-content: center;
 }
 
-.queEsImg1, .queEsImg2{
+.queEsImg2{
     width: 100%;
 }
